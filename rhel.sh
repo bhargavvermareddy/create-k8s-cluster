@@ -6,11 +6,11 @@ export KUBERNETES_VERSION=v1.30 && \
 export CRIO_VERSION=v1.30
 
 sudo swapoff -a # Disabling swap
-sed -e '/swap/s/^/#/g' -i /etc/fstab # Disabling swap permanently
+sudo sed -e '/swap/s/^/#/g' -i /etc/fstab # Disabling swap permanently
 
 # setting sexliunx to Permissive mode
 sudo setenforce 0
-sudo sudo sed -i 's/^SELINUX=enforcing$/SELINUX=permissive/' /etc/selinux/config
+sudo sed -i 's/^SELINUX=enforcing$/SELINUX=permissive/' /etc/selinux/config
 
 
 # opening required ports for k8s
