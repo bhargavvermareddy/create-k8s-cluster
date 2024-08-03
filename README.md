@@ -7,6 +7,7 @@ Note: these scripts are a set of standard shell commands to create a k8s cluster
 ### Scripts are tested on following server versions.
 
 Ubuntu server 24.04
+
 RHEL 9.4
 
 Clusters created by the scripts uses cri-o as the container runtime (CRI)
