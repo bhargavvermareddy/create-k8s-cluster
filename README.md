@@ -10,8 +10,8 @@ Ubuntu server 24.04
 
 RHEL 9.4
 
-Clusters created by the scripts uses cri-o as the container runtime (CRI)
-Networking add-on not included in the script.
+Clusters created by the scripts uses cri-o as the container runtime (CRI). No networking add-on is included in the script.
 
 Follow the documentation to install desired networking add-on of your choice.
-[text](https://kubernetes.io/docs/concepts/cluster-administration/addons/#networking-and-network-policy)https://kubernetes.io/docs/concepts/cluster-administration/addons/#networking-and-network-policy
+
+[Networking and network policy](https://kubernetes.io/docs/concepts/cluster-administration/addons/#networking-and-network-policy)
