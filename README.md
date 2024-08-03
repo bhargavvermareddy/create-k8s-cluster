@@ -15,3 +15,5 @@ Clusters created by the scripts uses cri-o as the container runtime (CRI). No ne
 Follow the documentation to install desired networking add-on of your choice.
 
 [Networking and network policy](https://kubernetes.io/docs/concepts/cluster-administration/addons/#networking-and-network-policy)
+
+I presonally tried installing [Calico](https://docs.tigera.io/calico/latest/getting-started/kubernetes/self-managed-onprem/onpremises#install-calico-with-etcd-datastore) network add-on and it worked as expected.
