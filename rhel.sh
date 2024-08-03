@@ -36,6 +36,9 @@ sudo firewall-cmd --zone=public --permanent --add-port=10252/tcp && \
 sudo firewall-cmd --zone=public --permanent --add-port=10255/tcp && \
 sudo firewall-cmd --zone=public --permanent --add-port=5473/tcp
 
+# open the following port on master node if you opt to install Calico CNI
+# sudo firewall-cmd --zone=public --permanent --add-port=179/tcp
+
 echo "==> Reloading firewall-cmd"
 sudo firewall-cmd --reload
 

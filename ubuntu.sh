@@ -30,6 +30,9 @@ sudo ufw allow 10252/tcp && \
 sudo ufw allow 10255/tcp && \
 sudo ufw allow 5473/tcp
 
+# open the following port on master node if you opt to install Calico CNI
+# sudo ufw allow 179/tcp
+
 # sudo iptables -L -n
 
 echo "==> Applying modprobes"
